@@ -15,6 +15,8 @@
 		41A7691829D4749400733836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A7691629D4749400733836 /* LaunchScreen.storyboard */; };
 		41A7692329D4749500733836 /* IosCodingNavigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7692229D4749500733836 /* IosCodingNavigatorTests.swift */; };
 		41A7692E29D4749500733836 /* IosCodingNavigatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7692D29D4749500733836 /* IosCodingNavigatorUITests.swift */; };
+		41A7693C29D4770900733836 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7693B29D4770900733836 /* FormViewController.swift */; };
+		41A7693E29D4771800733836 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A7693D29D4771800733836 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		41A7692929D4749500733836 /* IosCodingNavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosCodingNavigatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A7692D29D4749500733836 /* IosCodingNavigatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosCodingNavigatorUITests.swift; sourceTree = "<group>"; };
 		41A7692F29D4749500733836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A7693B29D4770900733836 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		41A7693D29D4771800733836 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				41A7691429D4749400733836 /* Assets.xcassets */,
 				41A7691629D4749400733836 /* LaunchScreen.storyboard */,
 				41A7691929D4749400733836 /* Info.plist */,
+				41A7693B29D4770900733836 /* FormViewController.swift */,
+				41A7693D29D4771800733836 /* InfoViewController.swift */,
 			);
 			path = IosCodingNavigator;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				41A7691029D4748900733836 /* ViewController.swift in Sources */,
 				41A7690C29D4748900733836 /* AppDelegate.swift in Sources */,
+				41A7693C29D4770900733836 /* FormViewController.swift in Sources */,
 				41A7690E29D4748900733836 /* SceneDelegate.swift in Sources */,
+				41A7693E29D4771800733836 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
