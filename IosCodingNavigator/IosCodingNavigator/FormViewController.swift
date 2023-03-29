@@ -24,7 +24,7 @@ class FormViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if(segue.identifier == "toinfo"){
+        if(segue.identifier == "toInfo"){
             let destVC = segue.destination as! InfoViewController
             destVC.FN = fName.text!
             destVC.LN = LName.text!
