@@ -10,9 +10,9 @@ import UIKit
 class InfoViewController: UIViewController {
 
     @IBOutlet weak var Pw: UILabel!
-    @IBOutlet var Pcode: UILabel!
+    @IBOutlet weak var Pcode: UILabel!
+    @IBOutlet weak var StreetAdress: UILabel!
     @IBOutlet weak var City: UILabel!
-    @IBOutlet var StreetAdress: UILabel!
     @IBOutlet weak var Email: UILabel!
     @IBOutlet weak var LName: UILabel!
     @IBOutlet weak var fName: UILabel!

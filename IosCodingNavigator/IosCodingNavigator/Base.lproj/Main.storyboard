@@ -250,7 +250,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-aY-7TK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-aY-7TK">
                                 <rect key="frame" x="20" y="337" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -288,9 +288,9 @@
                         <outlet property="City" destination="Yrw-ZQ-EM9" id="TUU-00-GaW"/>
                         <outlet property="Email" destination="6Og-8m-Syc" id="kpO-Bm-P6q"/>
                         <outlet property="LName" destination="8Ym-d1-R6z" id="y86-23-uEO"/>
-                        <outlet property="Pcode" destination="346-MM-1gX" id="wd7-6b-bVH"/>
+                        <outlet property="Pcode" destination="ZP9-1b-7ms" id="Qrj-4P-DKB"/>
                         <outlet property="Pw" destination="h6b-aY-7TK" id="nJ0-v9-4gG"/>
-                        <outlet property="StreetAdress" destination="346-MM-1gX" id="jnL-Tp-VbB"/>
+                        <outlet property="StreetAdress" destination="Hrz-6J-Ghc" id="gmd-Wz-cD0"/>
                         <outlet property="fName" destination="pXZ-rE-cqB" id="XwB-cm-yoc"/>
                     </connections>
                 </viewController>
