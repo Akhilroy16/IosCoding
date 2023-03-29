@@ -16,13 +16,25 @@ class FormViewController: UIViewController {
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var LName: UITextField!
     @IBOutlet weak var fName: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "toinfo"){
+            let destVC = segue.destination as! InfoViewController
+            destVC.FN = fName.text!
+            destVC.LN = LName.text!
+            destVC.EM = Email.text!
+            destVC.SA = StreetAdress.text!
+            destVC.CT = City.text!
+            destVC.PC = Pcode.text!
+            destVC.PW = Pw.text!
+        }
+    }
     /*
     // MARK: - Navigation
 
